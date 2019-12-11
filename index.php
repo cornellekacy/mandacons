@@ -71,7 +71,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder design_cat">
+            <a href="mechanical.php" class="single-category-holder design_cat">
                <div class="category-holder-icon">
                   
                </div>
@@ -81,7 +81,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder restaurant_cat">
+            <a href="electrical.php" class="single-category-holder restaurant_cat">
                <div class="category-holder-icon">
                   
                </div>
@@ -91,7 +91,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder tech_cat">
+            <a href="safety.php" class="single-category-holder tech_cat">
                <div class="category-holder-icon">
                  
                </div>

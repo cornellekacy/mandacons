@@ -10,7 +10,7 @@
                            <img src="assets/img/last1.png" alt="jobguru logo" />
                            </a>
                         </div>
-                        <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>
+                        <p>Hilltop Construction Company Ltd provide the best for job seekers and the working conditions are good, Team spirit is our main goal.</p>
                         <ul class="footer-social">
                            <li><a href="#" class="fb"><i class="fa fa-facebook"></i></a></li>
                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
@@ -28,7 +28,7 @@
                               <img src="assets/img/footer-post-2.jpg" alt="post" />
                            </div>
                            <div class="latest-post-footer-right">
-                              <h4><a href="#">Website design trends for 2018</a></h4>
+                              <h4><a href="#">New job opennings for 2018</a></h4>
                               <p>January 14 - 2018</p>
                            </div>
                         </div>
@@ -37,7 +37,7 @@
                               <img src="assets/img/footer-post-3.jpg" alt="post" />
                            </div>
                            <div class="latest-post-footer-right">
-                              <h4><a href="#">UI experts and modern designs</a></h4>
+                              <h4><a href="#">Get the best paid jobs </a></h4>
                               <p>January 12 - 2018</p>
                            </div>
                         </div>
@@ -47,24 +47,24 @@
                      <div class="single-footer-widget">
                         <h3>main links</h3>
                         <ul>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> About jobguru</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Delivery Information</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Terms & Conditions</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Customer support</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Contact with an expert</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> community updates</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right "></i> upcoming updates</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Home</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> About Us</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Our Services</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Available Jobs</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Testimonials</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Contact Us</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right "></i> Apply Now</a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                      <div class="single-footer-widget footer-contact">
                         <h3>Contact Info</h3>
-                        <p><i class="fa fa-map-marker"></i> 4257 Street, SunnyVale, USA </p>
-                        <p><i class="fa fa-phone"></i> 012-3456-789</p>
-                        <p><i class="fa fa-envelope-o"></i> info@jobguru.com</p>
-                        <p><i class="fa fa-envelope-o"></i> info@jobguru.com</p>
-                        <p><i class="fa fa-fax"></i> 112-3456-7898</p>
+                        <p><i class="fa fa-map-marker"></i> United States Of America-Dallas Texas</p>
+                        <p><i class="fa fa-phone"></i>+1 (970) 387-8555</p>
+                        <p><i class="fa fa-envelope-o"></i> hilltopconstructions.com</p>
+                        <p><i class="fa fa-envelope-o"></i> support@hilltopconstructions.com</p>
+                        
                      </div>
                   </div>
                </div>
