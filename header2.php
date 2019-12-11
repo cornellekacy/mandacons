@@ -10,7 +10,7 @@
       <meta name="keyword" content="Job, freelancer, employee, marketplace">
       <meta name="author" content="Themescare">
       <!-- Title -->
-      <title>Hilto Construction Company ~ Home</title>
+      <title>Hiltop Construction Company ~ Home</title>
       <!-- Favicon -->
       <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
       <!--Bootstrap css-->
@@ -67,6 +67,7 @@
                                    <li><a href="testimonial.php">Testimonials</a></li>
                                      <li><a href="available.php">Available Jobs</a></li>
                                      <li><a href="contact.php">Contact Us</a></li>
+                                     <li><a href="apply.php">Apply Now</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -74,7 +75,7 @@
                   <div class="col-lg-4">
                      <div class="header-right-menu">
                         <ul>
-                           <li><a href="post-job.html" class="post-jobs">Apply for a jobs</a></li>
+                           <li><a href="apply.php" class="post-jobs">Apply for a jobs</a></li>
                         </ul>
                      </div>
                   </div>

@@ -1,268 +1,58 @@
 <?php include 'header2.php'; ?>
-       
-       
-      <!-- Breadcromb Area Start -->
-      <section class="jobguru-breadcromb-area">
-         <div class="breadcromb-top section_100">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="breadcromb-box">
-                        <h3>About us</h3>
-                     </div>
-                  </div>
+
+
+<!-- Breadcromb Area Start -->
+<section class="jobguru-breadcromb-area">
+   <div class="breadcromb-top section_100">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="breadcromb-box">
+                  <h3>About us</h3>
                </div>
             </div>
          </div>
-         <div class="breadcromb-bottom">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="breadcromb-box-pagin">
-                        <ul>
-                           <li><a href="#">home</a></li>
-                           <li><a href="#">pages</a></li>
-                           <li class="active-breadcromb"><a href="#">About us</a></li>
-                        </ul>
-                     </div>
-                  </div>
+      </div>
+   </div>
+   <div class="breadcromb-bottom">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="breadcromb-box-pagin">
+                  <ul>
+                     <li><a href="#">home</a></li>
+                     <li class="active-breadcromb"><a href="#">About us</a></li>
+                  </ul>
                </div>
             </div>
          </div>
-      </section>
-      <!-- Breadcromb Area End -->
-       
-       
-      <!-- About Area Start -->
-      <section class="jobguru-about-page section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="about-main-box">
-                     <p>Donec at cursus sem. Duis condimentum posuere
-                        purus, at venenatis tellus mollis. Vestibulum cursus
-                        convallis venenatis. Sed ut blandit mauris. Proin pret-
-                        ium consequat est, sit amet consectetu
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-4 col-md-12">
-                  <div class="single-about-box">
-                     <div class="about-box-img">
-                        <a href="#">
-                        <img src="assets/img/abt-1.jpg" alt="about image" />
-                        </a>
-                     </div>
-                     <div class="about-box-text">
-                        <h3>Advertise A Job</h3>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-12">
-                  <div class="single-about-box">
-                     <div class="about-box-img">
-                        <a href="#">
-                        <img src="assets/img/abt-2.jpg" alt="about image" />
-                        </a>
-                     </div>
-                     <div class="about-box-text">
-                        <h3>Recruiter Profiles</h3>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-12">
-                  <div class="single-about-box">
-                     <div class="about-box-img">
-                        <a href="#">
-                        <img src="assets/img/abt-3.jpg" alt="about image" />
-                        </a>
-                     </div>
-                     <div class="about-box-text">
-                        <h3>Temp Search</h3>
-                     </div>
-                  </div>
-               </div>
+      </div>
+   </div>
+</section>
+<!-- Breadcromb Area End -->
+
+
+<!-- About Area Start -->
+<section class="jobguru-about-page section_70">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div style="font-size: 19px">
+               <p>Hilton Construction Company Ltd Is A Multi-National Company That Specialise In Construction. We Are Based In the United States And We Have Branches Around The World. We Have A Large Number Of Projects And We Employ Workers From Around The World For Work. Our Main Website hiltonconstructions.com Has All The Information You Will Need To Apply For A Job And Get Selected For Interview And Get A USA Visa And An Offer Letter. We Employ Workers From All Works Of Life And We Provide Acommodation For Our Workers. Our Pay Is Good And The Benefits Of Service Is The Best On The Job Market.<p><br>
+                  <p>Hilton Construction Company Ltd Is Involved Is Commercial, Institutional, Industrial, House Hold And Civil Construction. Due To The Nature Of Our Company And Working Program, Worker Are Sometimes Require To Move And Work In Different Cities Of The Country And Sometimes Different Countries. All This Is Stated In The Contract Agreement And Workers That Are Selected To Move And Work Are Equally Compensated For The Extra Services. That Is Why We Give High Priority To Workers That Are Not Married. We Are Not Bound By Ethnic Or Religious Discrimination When Employing Our Workers.</p><br>
+                  <p>Hilton Construction Company Ltd Carefully Select It Workers And Once You Have Been Selected You Document Are Processed. For More Information About Our Services And How To Apply For Our Opening Jobs, You Can Send Us A Message Through The Contact Page Or You Call And Text Our Number +1 (970) 387-8555. Our Support Team Is Always Available To Answer Your Questions.</p>
+
+
+
+               </p>
             </div>
          </div>
-      </section>
-      <!-- About Area End -->
-       
-       
-      <!-- Pricing Area Start -->
-      <section class="jobguru-pricing-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h2>choose best <span>plan</span></h2>
-                     <p>A better career is out there. We'll help you find it. We're your first step to becoming everything you want to be.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4 no-pad-right">
-                  <div class="single-pricing price-basic">
-                     <div class="price-heading">
-                        <h3>basic</h3>
-                     </div>
-                     <div class="price-value">
-                        <h2><i class="fa fa-dollar"></i> 35</h2>
-                        <p>per month</p>
-                     </div>
-                     <div class="price-btn">
-                        <a href="#" class="jobguru-btn-2">sign up</a>
-                     </div>
-                     <div class="price-body">
-                        <p>Features of Basic Plan</p>
-                        <p>1 Listing</p>
-                        <p>30 Days Visibility</p>
-                        <p>10 bids per day</p>
-                        <p>Highlighted in Search Results</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 no-pad-all">
-                  <div class="single-pricing price-standard">
-                     <div class="price-heading">
-                        <h3>basic</h3>
-                     </div>
-                     <div class="price-value">
-                        <h2><i class="fa fa-dollar"></i> 35</h2>
-                        <p>per month</p>
-                     </div>
-                     <div class="price-btn">
-                        <a href="#" class="jobguru-btn-2">sign up</a>
-                     </div>
-                     <div class="price-body">
-                        <p>Features of Basic Plan</p>
-                        <p>1 Listing</p>
-                        <p>30 Days Visibility</p>
-                        <p>10 bids per day</p>
-                        <p>Highlighted in Search Results</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 no-pad-left">
-                  <div class="single-pricing price-premium">
-                     <div class="price-heading">
-                        <h3>basic</h3>
-                     </div>
-                     <div class="price-value">
-                        <h2><i class="fa fa-dollar"></i> 35</h2>
-                        <p>per month</p>
-                     </div>
-                     <div class="price-btn">
-                        <a href="#" class="jobguru-btn-2">sign up</a>
-                     </div>
-                     <div class="price-body">
-                        <p>Features of Basic Plan</p>
-                        <p>1 Listing</p>
-                        <p>30 Days Visibility</p>
-                        <p>10 bids per day</p>
-                        <p>Highlighted in Search Results</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Pricing Area End -->
-       
-       
-      <!-- Team Area Start -->
-      <section class="jobguru-team-area section_70">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="site-heading">
-                     <h2>Awesome Team <span>Member</span></h2>
-                     <p>A better career is out there. We'll help you find it. We're your first step to becoming everything you want to be.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6 col-lg-3">
-                  <div class="single-team-member">
-                     <div class="team-img">
-                        <img src="assets/img/team-3.jpg" alt="team member" />
-                        <div class="team-overlay">
-                           <ul>
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="team-text">
-                        <h4>Jylin Scott</h4>
-                        <p>Founder & CEO</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6 col-lg-3">
-                  <div class="single-team-member">
-                     <div class="team-img">
-                        <img src="assets/img/team-2.jpg" alt="team member" />
-                        <div class="team-overlay">
-                           <ul>
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="team-text">
-                        <h4>James Sienna</h4>
-                        <p>managing director</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6 col-lg-3">
-                  <div class="single-team-member">
-                     <div class="team-img">
-                        <img src="assets/img/team-1.jpg" alt="team member" />
-                        <div class="team-overlay">
-                           <ul>
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="team-text">
-                        <h4>Charles Luke</h4>
-                        <p>HR Manager</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6 col-lg-3">
-                  <div class="single-team-member">
-                     <div class="team-img">
-                        <img src="assets/img/team-4.jpg" alt="team member" />
-                        <div class="team-overlay">
-                           <ul>
-                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="team-text">
-                        <h4>Catherine Matt</h4>
-                        <p>Senior Consultant</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Team Area End -->
-       
-       
-     <?php include 'footer.php'; ?>
+      </div>
+
+   </div>
+</section>
+
+<!-- Team Area End -->
+
+
+<?php include 'footer.php'; ?>

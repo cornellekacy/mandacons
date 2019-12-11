@@ -7,7 +7,7 @@
                      <div class="single-footer-widget">
                         <div class="footer-logo">
                            <a href="index-2.html">
-                           <img src="assets/img/logo.png" alt="jobguru logo" />
+                           <img src="assets/img/last1.png" alt="jobguru logo" />
                            </a>
                         </div>
                         <p>Aliquip exa consequat dui aut repahend vouptate elit cilum fugiat pariatur lorem dolor cit amet consecter adipisic elit sea vena eiusmod nulla</p>

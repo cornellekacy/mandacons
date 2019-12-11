@@ -21,7 +21,6 @@
                      <div class="breadcromb-box-pagin">
                         <ul>
                            <li><a href="#">home</a></li>
-                           <li><a href="#">pages</a></li>
                            <li class="active-breadcromb"><a href="#">Contact us</a></li>
                         </ul>
                      </div>
@@ -41,14 +40,14 @@
                   <div class="contact-left">
                      <h3>Contact information</h3>
                      <div class="contact-details">
-                        <p><i class="fa fa-map-marker"></i> Suite F-2 Manhattan, New York 10282 </p>
+                        <p><i class="fa fa-map-marker"></i> United States Of America-Dallas Texas</p>
                         <div class="single-contact-btn">
                            <h4>Email Us</h4>
-                           <a href="#" class="jobguru-btn-2">support@jobguru.com</a>
+                           <a href="#" class="jobguru-btn-2">support@hiltonconstructions.com</a>
                         </div>
                         <div class="single-contact-btn">
                            <h4>Call Us</h4>
-                           <a href="#" class="jobguru-btn-2">+(09)-2134-76894-9</a>
+                           <a href="#" class="jobguru-btn-2">+1 (970) 387-8555</a>
                         </div>
                         <div class="social-links-contact">
                            <h4>Follow Us:</h4>
@@ -65,30 +64,91 @@
                <div class="col-md-7">
                   <div class="contact-right">
                      <h3>Feel free to contact us!</h3>
-                     <form>
+                                                                                       <?php
+/**
+ * This example shows how to handle a simple contact form.
+ */
+
+//Import PHPMailer classes into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+$msg = '';
+//Don't run this unless we're handling a form submission
+if (array_key_exists('email', $_POST)) {
+    date_default_timezone_set('Etc/UTC');
+    require 'autoload.php';
+    //Create a new PHPMailer instance
+    $mail = new PHPMailer;
+    //Tell PHPMailer to use SMTP - requires a local mail server
+    //Faster and safer than using mail()
+    $mail->isSMTP();
+$mail->SMTPSecure = 'tls';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587;
+//Whether to use SMTP authentication
+$mail->SMTPAuth = true;
+//Username to use for SMTP authentication - use full email address for gmail
+$mail->Username = "cornellekacy4@gmail.com";
+//Password to use for SMTP authentication
+$mail->Password = "cornellekacy456";
+    //Use a fixed address in your own domain as the from address
+    //**DO NOT** use the submitter's address here as it will be forgery
+    //and will cause your messages to fail SPF checks
+    $mail->setFrom('from@example.com', 'Site Contact');
+    //Send the message to yourself, or whoever should receive contact for submissions
+    $mail->addAddress('cornellekacy4@gmail.com', 'Contact');
+    //Put the submitter's address in a reply-to header
+    //This will fail if the address provided is invalid,
+    //in which case we should ignore the whole request
+    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
+        $mail->Subject = 'Hilltop Construction Contact';
+        //Keep it simple - don't use HTML
+        $mail->isHTML(false);
+        //Build a simple message body
+        $mail->Body = <<<EOT
+Full Name: {$_POST['name']}
+Email: {$_POST['email']}
+Subject: {$_POST['subject']}
+Message: {$_POST['message']}
+EOT;
+        //Send the message, check for errors
+        if (!$mail->send()) {
+            //The reason for failing to send will be in $mail->ErrorInfo
+            //but you shouldn't display errors to users - process the error, log it on your server.
+            $msg = 'Sorry, something went wrong. Please try again later.'. $mail->ErrorInfo;
+        } else {
+            echo "<div class='alert alert-success'>
+  <strong>Sent!</strong> Message successfully send, we will get back to you soon.
+</div>";
+        }
+    } else {
+        $msg = 'Invalid email address, message ignored.';
+    }
+}
+?> 
+                     <form method="post">
                         <div class="row">
                            <div class="col-md-6">
                               <div class="single-contact-field">
-                                 <input type="text" placeholder="Your Name">
+                                 <input type="text" name="name" placeholder="Your Name">
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="single-contact-field">
-                                 <input type="email" placeholder="Email Address">
+                                 <input type="email" name="email" placeholder="Email Address">
                               </div>
                            </div>
                         </div>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="single-contact-field">
-                                 <input type="text" placeholder="Subject">
+                                 <input type="text" name="subject" placeholder="Subject">
                               </div>
                            </div>
                         </div>
                         <div class="row">
                            <div class="col-md-12">
                               <div class="single-contact-field">
-                                 <textarea placeholder="Write here your message"></textarea>
+                                 <textarea name="message" placeholder="Write here your message"></textarea>
                               </div>
                            </div>
                         </div>
