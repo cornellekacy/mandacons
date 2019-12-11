@@ -43,7 +43,7 @@
                         <p><i class="fa fa-map-marker"></i> United States Of America-Dallas Texas</p>
                         <div class="single-contact-btn">
                            <h4>Email Us</h4>
-                           <a href="#" class="jobguru-btn-2">support@hiltonconstructions.com</a>
+                           <a href="#" class="jobguru-btn-2">support@hilltopconstructions.com</a>
                         </div>
                         <div class="single-contact-btn">
                            <h4>Call Us</h4>
