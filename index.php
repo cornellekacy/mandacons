@@ -353,7 +353,7 @@
                                  </a>
                               </div>
                               <div class="company-list-details">
-                                 <h3><a href="#">Civil Engineer - Hilton Construction.</a></h3>
+                                 <h3><a href="#">Civil Engineer - Hilltop Construction.</a></h3>
                                  <p class="company-state"><i class="fa fa-map-marker"></i> Chicago, Michigan</p>
                                  <p class="open-icon"><i class="fa fa-money"></i>$48,481 - $63,108 a year</p>
                                  <p class="open-icon"><i class="fa fa-briefcase"></i>32 open position</p>
@@ -371,7 +371,7 @@
                                  </a>
                               </div>
                               <div class="company-list-details">
-                                 <h3><a href="#">Civil Engineer II - Hilton Construction.</a></h3>
+                                 <h3><a href="#">Civil Engineer II - Hilltop Construction.</a></h3>
                                  <p class="company-state"><i class="fa fa-map-marker"></i> Texas, Dallas</p>
                                  <p class="open-icon"><i class="fa fa-money"></i>$40,000 - $59,000a year</p>
                                  <p class="open-icon"><i class="fa fa-briefcase"></i>28 open position</p>
@@ -389,7 +389,7 @@
                                  </a>
                               </div>
                               <div class="company-list-details">
-                                 <h3><a href="#">Civil Engineer III - Hilton Construction.</a></h3>
+                                 <h3><a href="#">Civil Engineer III - Hilltop Construction.</a></h3>
                                  <p class="company-state"><i class="fa fa-map-marker"></i> Texas, Dallas</p>
                                  <p class="open-icon"><i class="fa fa-money"></i>$38,000 - $60,000a year</p>
                                  <p class="open-icon"><i class="fa fa-briefcase"></i>19 open position</p>
@@ -407,7 +407,7 @@
                                  </a>
                               </div>
                               <div class="company-list-details">
-                                 <h3><a href="#">Civil Engineer - Hilton Construction.</a></h3>
+                                 <h3><a href="#">Civil Engineer - Hilltop Construction.</a></h3>
                                  <p class="company-state"><i class="fa fa-map-marker"></i> New Jersey</p>
                                  <p class="open-icon"><i class="fa fa-money"></i>$38,000 - $60,000a year</p>
                                  <p class="open-icon"><i class="fa fa-briefcase"></i>10 open position</p>

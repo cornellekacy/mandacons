@@ -208,7 +208,7 @@ EOT;
                                        </p>
                                        <input type="file" name="image">
                                     </div>
-                                    <p>Scan or take a snap shot of you passport and upload it here</p>
+                                    <p>upload your CV, or resume or letter of motivation here</p>
                                  </div>
                               </div>
                               <div class="single-input submit-resume">
