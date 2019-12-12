@@ -50,7 +50,7 @@
                <div class="row">
                   <div class="col-lg-2">
                      <div class="site-logo">
-                        <a href="index-2.html">
+                        <a href="index.php">
                         <img src="assets/img/last1.png" alt="jobguru" class="non-stick-logo" />
                         <img src="assets/img/last2.png" alt="jobguru" class="stick-logo" />
                         </a>

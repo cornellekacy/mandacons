@@ -6,7 +6,7 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="single-footer-widget">
                         <div class="footer-logo">
-                           <a href="index-2.html">
+                           <a href="index.php">
                            <img src="assets/img/last1.png" alt="jobguru logo" />
                            </a>
                         </div>

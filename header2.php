@@ -49,7 +49,7 @@
                <div class="row">
                   <div class="col-lg-2">
                      <div class="site-logo">
-                        <a href="index-2.html">
+                        <a href="index.php">
                         <img src="assets/img/new2.png" alt="jobguru" />
                         </a>
                      </div>
