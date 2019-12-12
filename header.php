@@ -6,7 +6,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="description" content="jobguru | Job Board HTML Templates from Themescare">
+      <meta name="description" content="Hilltop Construction Company Ltd, Get the job of your dreams and live the life of your dreams">
       <meta name="keyword" content="Job, freelancer, employee, marketplace">
       <meta name="author" content="Themescare">
       <meta name="yandex-verification" content="4c3b297c158f7a50" />

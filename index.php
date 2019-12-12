@@ -114,7 +114,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder writing_cat">
+            <a href="project.php" class="single-category-holder writing_cat">
                <div class="category-holder-icon">
                
                </div>
@@ -125,7 +125,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder edu_cat">
+            <a href="draft.php" class="single-category-holder edu_cat">
                <div class="category-holder-icon">
                   
                </div>
@@ -136,7 +136,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder sale_cat">
+            <a href="receptionist.php" class="single-category-holder sale_cat">
                <div class="category-holder-icon">
               
                </div>
@@ -150,7 +150,7 @@
 
       <div class="row">
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder data_cat">
+            <a href="driver.php" class="single-category-holder data_cat">
                <div class="category-holder-icon">
                  
                </div>
@@ -162,7 +162,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder writing_cat">
+            <a href="docent.php" class="single-category-holder writing_cat">
                <div class="category-holder-icon">
                 
                </div>
@@ -174,7 +174,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder edu_cat">
+            <a href="clerk.php" class="single-category-holder edu_cat">
                <div class="category-holder-icon">
                 
                </div>
@@ -185,7 +185,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder sale_cat">
+            <a href="front.php" class="single-category-holder sale_cat">
                <div class="category-holder-icon">
                   
                </div>
@@ -199,7 +199,7 @@
       </div>
             <div class="row">
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder data_cat">
+            <a href="general.php" class="single-category-holder data_cat">
                <div class="category-holder-icon">
                
                </div>
@@ -212,7 +212,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder writing_cat">
+            <a href="carpenter.php" class="single-category-holder writing_cat">
                <div class="category-holder-icon">
                   
                </div>
@@ -224,7 +224,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder edu_cat">
+            <a href="plumber.php" class="single-category-holder edu_cat">
                <div class="category-holder-icon">
                  
                </div>
@@ -235,7 +235,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder sale_cat">
+            <a href="account.php" class="single-category-holder sale_cat">
                <div class="category-holder-icon">
                
                </div>
@@ -250,7 +250,7 @@
 
              <div class="row">
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder data_cat">
+            <a href="hr.php" class="single-category-holder data_cat">
                <div class="category-holder-icon">
            
                </div>
@@ -262,7 +262,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder writing_cat">
+            <a href="supervisor.php" class="single-category-holder writing_cat">
                <div class="category-holder-icon">
                 
                </div>
@@ -274,7 +274,7 @@
             </a>
          </div>
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder edu_cat">
+            <a href="medical.php" class="single-category-holder edu_cat">
                <div class="category-holder-icon">
                   
                </div>
