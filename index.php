@@ -60,8 +60,8 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="civil.php" class="single-category-holder account_cat">
+         <div class="col-lg-3 col-md-6 col-sm-6" >
+            <a href="civil.php" class="single-category-holder account_cat" >
                <div class="category-holder-icon">
                  
                </div>

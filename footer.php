@@ -75,7 +75,7 @@
                <div class="row">
                   <div class="col-lg-12">
                      <div class="copyright-left">
-                        <p>Copyright &copy; 2018 Themescare. All Rights Reserved</p>
+                        <p>Copyright &copy; 2013 Hilltop Construction Company Ltd. All Rights Reserved</p>
                      </div>
                   </div>
                </div>
