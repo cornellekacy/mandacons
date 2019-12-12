@@ -9,6 +9,7 @@
       <meta name="description" content="jobguru | Job Board HTML Templates from Themescare">
       <meta name="keyword" content="Job, freelancer, employee, marketplace">
       <meta name="author" content="Themescare">
+      <meta name="yandex-verification" content="4c3b297c158f7a50" />
       <!-- Title -->
       <title>Hiltop Construction Company ~ Home</title>
       <!-- Favicon -->

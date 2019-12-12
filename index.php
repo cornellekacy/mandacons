@@ -103,7 +103,7 @@
       </div>
       <div class="row">
          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="#" class="single-category-holder data_cat">
+            <a href="security.php" class="single-category-holder data_cat">
                <div class="category-holder-icon">
                 
                </div>
