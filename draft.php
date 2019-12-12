@@ -93,7 +93,7 @@
                         <ul class="job-overview">
                            <li>
                               <h4><i class="fa fa-briefcase"></i> Offerd Salary</h4>
-                              <p>$6,481 - $8,108 a year</p>
+                              <p>$6,481 - $8,108 a month</p>
                            </li>
                            <li>
                               <h4><i class="fa fa-map-marker"></i> Location</h4>
