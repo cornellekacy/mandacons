@@ -16,7 +16,7 @@
          <div class="row">
             <div class="col-md-12">
                <div class="banner-search">
-                  <h2>Get a job today with Hilton Construction</h2>
+                  <h2>Get a job today with Hilltop Construction</h2>
                   <h4>We have 1542 job offers for you! </h4>
            
                </div>
