@@ -38,7 +38,7 @@
                   <div class="dashboard-right">
                      <div class="earnings-page-box manage-jobs">
                         <div class="manage-jobs-heading">
-                           <h3>Post A new job</h3>
+                           <h3>Apply Here</h3>
                                                                                              <?php
 /**
  * This example shows how to handle a simple contact form.
