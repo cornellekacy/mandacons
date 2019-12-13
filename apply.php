@@ -5,7 +5,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="breadcromb-box">
-                        <h3>Apply for a job</h3>
+                        <h3>Apply Here</h3>
                      </div>
                   </div>
                </div>
@@ -18,7 +18,7 @@
                      <div class="breadcromb-box-pagin">
                         <ul>
                            <li><a href="#">home</a></li>
-                           <li class="active-breadcromb"><a href="#">Apply for a job</a></li>
+                           <li class="active-breadcromb"><a href="#">Apply Here</a></li>
                         </ul>
                      </div>
                   </div>
