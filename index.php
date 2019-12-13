@@ -35,7 +35,7 @@
                <div class="category-holder-icon">
                  
                </div>
-               <div class="category-holder-text">
+               <div class="">
                   <h3 style="font-size: 25px;">support@hilltopconstructions.com</h3><br>
                   <h3 style="font-size: 25px;">+1 (970) 387-8555</h3><br>
 
