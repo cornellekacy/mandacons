@@ -61,7 +61,7 @@
                      <div class="single-footer-widget footer-contact">
                         <h3>Contact Info</h3>
                         <p><i class="fa fa-map-marker"></i> United States Of America-Dallas Texas</p>
-                        <p><i class="fa fa-phone"></i>+1 (970) 387-8555</p>
+                        <p><i class="fa fa-phone"></i>+1-(352) 507-5763</p>
                         <p><i class="fa fa-envelope-o"></i> hilltopconstructions.com</p>
                         <p><i class="fa fa-envelope-o"></i> support@hilltopconstructions.com</p>
                         
