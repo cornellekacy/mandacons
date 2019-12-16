@@ -47,7 +47,7 @@
                         </div>
                         <div class="single-contact-btn">
                            <h4>Call Us</h4>
-                           <a href="#" class="jobguru-btn-2">+1 (970) 387-8555</a>
+                           <a href="#" class="jobguru-btn-2">+1-(352) 507-5763</a>
                         </div>
                         <div class="social-links-contact">
                            <h4>Follow Us:</h4>
