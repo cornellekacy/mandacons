@@ -39,6 +39,7 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <!--Responsive css-->
       <link rel="stylesheet" href="assets/css/responsive.css">
+      <script data-ad-client="ca-pub-3894517886988514" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
    </head>
    <body>
        
