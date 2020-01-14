@@ -57,20 +57,20 @@ if (array_key_exists('email', $_POST)) {
     //Faster and safer than using mail()
     $mail->isSMTP();
 $mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = 'smtp.yandex.com';
 $mail->Port = 587;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "cornellekacy4@gmail.com";
+$mail->Username = "support@hilltopconstructions.com";
 //Password to use for SMTP authentication
-$mail->Password = "cornellekacy456";
+$mail->Password = "azinue2010";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('from@example.com', 'Site Contact');
+    $mail->setFrom('support@hilltopconstructions.com', 'Application From Hilltop');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('support@hilltopconstructions.com', 'Contact');
+    $mail->addAddress('support@hilltopconstructions.com', 'Application mail');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
